@@ -1,6 +1,6 @@
 
 import React, {useEffect, useState } from 'react';
-import styles from "./clickCount.module.scss"
+import styles from "./footer.module.scss"
 
 type ClickCountProps = {
 
