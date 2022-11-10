@@ -1,16 +1,11 @@
 // App.tsx
 import React from 'react'
-import SomeExampleComponent from './components/aboutMe/aboutMe';
-import ClickCount from './components/footer/footer';
-
-
+import AboutMe from './components/aboutMe';
 
 const App: React.FC = () => {
   return (
     <div>
-    
-      <SomeExampleComponent />
-      <ClickCount />
+      <AboutMe />
     </div>
   )
 }

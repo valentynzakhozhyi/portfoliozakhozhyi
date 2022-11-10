@@ -1,3 +1,32 @@
-.container{
-
+.container {
+    margin-left: 30px;
 }
+
+.container ul li a {
+font-family: papyrus;
+font-size: larger;
+color: rgb(9, 9, 88, 0.8);
+}
+
+li {
+    display: inline;
+    padding: 30px;
+}
+.links {
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }

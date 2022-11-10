@@ -1,5 +1,4 @@
 {
-  "homepage": ".",
   "name": "portfoliozakhozhyi",
   "version": "0.1.0",
   "private": true,
@@ -9,14 +8,13 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.3",
-    "@types/react": "^18.0.24",
+    "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
-    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
-    "sass": "^1.55.0",
+    "sass": "^1.56.0",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
