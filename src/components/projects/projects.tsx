@@ -25,6 +25,7 @@ const Projects: React.FC<ProjectsProps> = () => {
             <div key={x.id} className={styles.box}>
               <h4 className={styles.title}>{x.name}</h4>
               <p className={styles.text}>{x.description}</p>
+              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}>Look it in GitHub</h4></a>
             </div>
           ))
         }

@@ -11,7 +11,7 @@ import "./index.module.scss";
 import Navbar from './components/navbar/navbar';
 import Cv from './components/cv/cv';
 import Projects from './components/projects/projects';
-
+import Footer from './components/footer/footer';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -24,6 +24,7 @@ root.render(
     <Route path='CV' element={<Cv />} />
     <Route path='Projects' element={<Projects />}/>
   </Routes>
+  <Footer />
   </BrowserRouter>
   </React.StrictMode>
 );
