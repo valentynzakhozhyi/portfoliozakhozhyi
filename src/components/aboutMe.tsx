@@ -20,7 +20,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
     <div  className={styles.layer4}></div>
     <div  className={styles.layer5}></div>
     <div  className={styles.layer6}></div> 
-     <Animation /></div> 
+     <div></div><Animation /></div> 
    
     </div>
     
