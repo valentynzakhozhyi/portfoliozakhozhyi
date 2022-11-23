@@ -1,23 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
 .container {
-    width: 100%;
+   /* width: 100%;
     height: 550px;
     background: #3f6b62;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  
+    align-items: center;*/
+   position: absolute;
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212, 255,1)100% );
+    overflow: hidden; 
+    
     h1 {
+      font-family: poppins;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       font-size: 52px;
       color: azure;
       text-shadow: 2px 2px #7860ff;
+      text-transform: uppercase;
+      margin: 0;
+      z-index: 99;
     }
-  
+    
     p {
+      
+      position: absolute;
+      top: 50%;
+      left: 10%;
       font-weight: 700;
       font-size: 25px;
       color: rgb(28, 228, 228);
       background: rgb(255, 0, 200);
       padding: 10px;
+      z-index: 99;
+     
+    }
+    
+    
+    
+    @keyframes animate{
+      0%{
+        background-position: 0 0;
+      } 
+      100%{
+        background-position: 35px -35px;
+      } 
+    }
+      @keyframes animate_two{
+        0%{
+            background-position: 35px -35px;
+          
+        } 
+        100%{
+            background-position: 0 0;
+        } 
+    }
+    .layer1{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 140px;
+      height: 250vh;
+        
+        transform: translate(-50%,-50%) rotate(45deg);
+        box-shadow: inset -10px 0 40px rgba(0,0,0,1),
+        inset 10px 0 40px rgba(0,0,0,1),
+        inset -10px 0 10px rgba(255,255,255,0.25),
+        inset 10px 0 10px rgba(255,255,255,0.25),
+        0 0 50px rgba(0,0,0,1);
+        background: #222 radial-gradient(#6dff73 9px, #000 9px,
+        #000 13px, transparent 13px);
+        background-size: 35px 35px;
+        z-index: 11;
+        animation: animate 2s linear infinite;
+    }
+    .layer2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 140px;
+        height: 250vh;
+        
+        transform: translate(-50%,-38%) rotate(45deg);
+        box-shadow: inset -10px 0 40px rgba(0,0,0,1),
+        inset 10px 0 40px rgba(0,0,0,1),
+        inset -10px 0 10px rgba(255,255,255,0.25),
+        inset 10px 0 10px rgba(255,255,255,0.25),
+        0 0 50px rgba(0,0,0,1);
+        background: #222 radial-gradient(#4212e1 9px, #000 9px,
+        #000 13px, transparent 13px);
+        background-size: 35px 35px;
+        z-index: 3;
+        animation: animate_two 2s linear infinite;
+        
+    }
+    .layer3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 140px;
+        height: 250vh;
+        
+        transform: translate(-50%,-62%) rotate(45deg);
+        box-shadow: inset -10px 0 40px rgba(0,0,0,1),
+        inset 10px 0 40px rgba(0,0,0,1),
+        inset -10px 0 10px rgba(255,255,255,0.25),
+        inset 10px 0 10px rgba(255,255,255,0.25),
+        0 0 50px rgba(0,0,0,1);
+        background: #222 radial-gradient(#e11295 9px, #000 9px,
+        #000 13px, transparent 13px);
+        background-size: 35px 35px;
+        z-index: 3;
+        animation: animate_two 2s linear infinite;
+    }
+    .layer4{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 140px;
+        height: 250vh;
+        
+        transform: translate(-50%,-50%) rotate(-45deg);
+        box-shadow: inset -10px 0 40px rgba(0,0,0,1),
+        inset 10px 0 40px rgba(0,0,0,1),
+        inset -10px 0 10px rgba(255,255,255,0.25),
+        inset 10px 0 10px rgba(255,255,255,0.25),
+        0 0 50px rgba(0,0,0,1);
+        background: #222 radial-gradient(#6dff73 9px, #000 9px,
+        #000 13px, transparent 13px);
+        background-size: 35px 35px;
+        z-index: 12;
+        animation: animate_two 2s linear infinite;
+    }
+    .layer5{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 140px;
+        height: 250vh;
+        
+        transform: translate(-50%,-38%) rotate(-45deg);
+        box-shadow: inset -10px 0 40px rgba(0,0,0,1),
+        inset 10px 0 40px rgba(0,0,0,1),
+        inset -10px 0 10px rgba(255,255,255,0.25),
+        inset 10px 0 10px rgba(255,255,255,0.25),
+        0 0 50px rgba(0,0,0,1);
+        background: #222 radial-gradient(#4212e1 9px, #000 9px,
+        #000 13px, transparent 13px);
+        background-size: 35px 35px;
+       z-index: 10;
+       animation: animate 2s linear infinite;
+    }
+    .layer6{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 140px;
+        height: 250vh;
+        
+        transform: translate(-50%,-62%) rotate(-45deg);
+        box-shadow: inset -10px 0 40px rgba(0,0,0,1),
+        inset 10px 0 40px rgba(0,0,0,1),
+        inset -10px 0 10px rgba(255,255,255,0.25),
+        inset 10px 0 10px rgba(255,255,255,0.25),
+        0 0 50px rgba(0,0,0,1);
+        background: #222 radial-gradient(#e11295 9px, #000 9px,
+        #000 13px, transparent 13px);
+        background-size: 35px 35px;
+        z-index: 10;
+        animation: animate 2s linear infinite;
     }
   }
+    
+
+ 
