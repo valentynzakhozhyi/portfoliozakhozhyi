@@ -12,6 +12,7 @@ import Navbar from './components/navbar/navbar';
 import Cv from './components/cv/cv';
 import Projects from './components/projects/projects';
 import Footer from './components/footer/footer';
+import AboutMe from './components/aboutMe';
 
 
 const root = ReactDOM.createRoot(
@@ -29,8 +30,9 @@ const Index: React.FC = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<App />}></Route>
+          <Route path='AboutMe' element={<AboutMe />} /> 
           <Route path='CV' element={<Cv />} />
-          <Route path='Projects' element={<Projects />} />
+          <Route path='Projects' element={<Projects />}/> 
         </Routes>
         <Footer />
       </BrowserRouter>
