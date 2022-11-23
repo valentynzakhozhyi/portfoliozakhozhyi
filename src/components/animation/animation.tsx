@@ -10,12 +10,6 @@ const Animation: React.FC<AnimationProps> = () => {
     
     <div className={styles.container}>
     
-    <div  className={styles.layer1}></div>
-    <div  className={styles.layer2}></div>
-    <div  className={styles.layer3}></div>
-    <div  className={styles.layer4}></div>
-    <div  className={styles.layer5}></div>
-    <div  className={styles.layer6}></div> 
     <div className={styles.ring}></div>
     <div className={styles.ring}></div>
     <div className={styles.ring}></div>
