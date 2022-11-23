@@ -22,11 +22,11 @@ const root = ReactDOM.createRoot(
 
 const Index: React.FC = () => {
 
-  const isProduction = window.location.href.includes("valentynzakhozhyi.github.io");
+  const isProduction = window.location.href.includes('valentynzakhozhyi.github.io');
 
   return (
     <React.StrictMode>
-      <BrowserRouter basename={isProduction ? "valentynzakhozhyi" : ""}>
+      <BrowserRouter basename={isProduction ? 'portfoliozakhozhyi' : ''}>
         <Navbar />
         <Routes>
           <Route path='/' element={<App />}></Route>
