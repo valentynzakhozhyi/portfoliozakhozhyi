@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { IRepo } from '../types/gitHubData';
-import styles from "./projects.module.scss"
+import styles from "./projects.module.scss";
+import Anim1 from '../anim1/anim1';
+
+
 
 
 type ProjectsProps = {
@@ -19,17 +22,21 @@ const Projects: React.FC<ProjectsProps> = () => {
   }, [])
   return (
     <div className={styles.cont}>
+      
       <div className={styles.list}>
         {
           githubData && githubData.map(x => (
             <div key={x.id} className={styles.box}>
               <h4 className={styles.title}>{x.name}</h4>
               <p className={styles.text}>{x.description}</p>
-              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}>Look it in GitHub</h4></a>
+              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}>Look it in <br></br>GitHub</h4></a>
+              
             </div>
           ))
         }
+       
       </div>
+      <div><Anim1 /></div>
     </div>
   )
 }
