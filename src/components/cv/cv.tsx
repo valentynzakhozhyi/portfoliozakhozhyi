@@ -9,6 +9,7 @@ const Cv: React.FC<CvProps> = () => {
   return (
   <div className={styles.conteiner}>
     <div className={styles.name}>
+     
       <h1>Zakhozhyi Valentyn</h1>
       <p>Osoite: Valtuustokatu 1 D 48</p>
       <p>01370 Vantaa</p>
@@ -16,11 +17,13 @@ const Cv: React.FC<CvProps> = () => {
       <p>Sähköpostiosoite: v.zahozhy@gmail.com</p>
       <p>Kansalaisuus: Ukraina</p>
     </div>
+    
     <div className={styles.information}>
       <h2>KOKEMUS</h2>
-      <p>7 vuoden kokemus vaatteiden ompeluista, hiomisesta, suunnitteluista ja muotoiluasioissa
+      <p>7 vuoden kokemus vaatteiden ompeluista, hiomisesta,<br></br> suunnitteluista ja muotoiluasioissa
 avustamisesta.</p>
 </div>
+    
 <div className={styles.information}>
   <h2>KOULUTUS</h2>
   <p>2021-  Varia ammattikoulu Ohjelmoiti</p>
