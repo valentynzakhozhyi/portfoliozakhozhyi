@@ -9,7 +9,7 @@ type EnglishState = { language: string };
 
 let strings = new LocalizedStrings({
   en:{ 
-    a:"EXPERIENCE", 
+    a:"EXPERIENCE f", 
     b:"7 years experience in sewing, sanding, designing and styling garments assistance",
     c:"EDUCATION",
     d:"2021- Varia Vocational School Programmed",
