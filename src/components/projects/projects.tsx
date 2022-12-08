@@ -36,7 +36,7 @@ const Projects: React.FC<ProjectsProps> = () => {
         }
        
       </div>
-      <div><Anim1 /></div>
+      <div className={styles.anim}><Anim1 /></div>
     </div>
   )
 }

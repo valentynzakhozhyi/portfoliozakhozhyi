@@ -4,8 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
-  Routes,
   Route,
+  Routes,
 } from "react-router-dom";
 import "./index.module.scss";
 import Navbar from './components/navbar/navbar';
@@ -13,12 +13,12 @@ import Cv from './components/cv/cv';
 import Projects from './components/projects/projects';
 import Footer from './components/footer/footer';
 import AboutMe from './components/aboutMe';
-
+import English from './components/cv/english';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
-
+   
 
 const Index: React.FC = () => {
 
@@ -32,7 +32,8 @@ const Index: React.FC = () => {
           <Route path='/' element={<App />}></Route>
           <Route path='AboutMe' element={<AboutMe />} /> 
           <Route path='CV' element={<Cv />} />
-          <Route path='Projects' element={<Projects />}/> 
+          <Route path='Projects' element={<Projects />}/>
+          <Route path='English' element={<English />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
