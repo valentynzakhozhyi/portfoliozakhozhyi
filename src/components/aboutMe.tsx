@@ -1,4 +1,3 @@
-import { useLocalization } from '@rintsin/common-components';
 import React from 'react';
 import styles from './aboutMe.module.scss';
 import Animation from './animation/animation';
