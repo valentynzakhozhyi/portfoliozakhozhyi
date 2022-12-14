@@ -1,4 +1,4 @@
-// App.tsx
+
 import React from 'react'
 import AboutMe from './components/aboutMe';
 

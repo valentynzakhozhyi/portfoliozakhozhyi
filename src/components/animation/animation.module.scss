@@ -16,7 +16,6 @@ height: 150px;
 margin: -30px;
 border-radius: 50%;
 border: 4px solid transparent;
-//border-top: 4px solid#24ecff;
 animation: animate2 4s linear infinite;
 
 }
@@ -53,7 +52,6 @@ box-shadow: 0 0 0 5px #24ecff33,
 animation: animate2 4s linear infinite;
 animation-delay: -1s;
 border-top: 4px solid transparent;
-//border-left: 4px solid #93ff2d;
 }
 .container .ring:nth-child(2)::before
 {
@@ -90,7 +88,6 @@ top: -66.66px;
 animation: animate2 3s linear infinite;
 animation-delay: -3s;
 border-top: 4px solid transparent;
-//border-Left: 4px solid #e11cf8;
 }
 .container .ring:nth-child(3)::before
 {
@@ -116,6 +113,4 @@ box-shadow: 0 0 0 5px #24ecff33,
     font-family: consolas;
     bottom: -100px;
     letter-spacing: 0.15em;
-
-
 }
