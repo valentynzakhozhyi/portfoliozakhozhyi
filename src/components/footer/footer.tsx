@@ -4,6 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { MdOutlineAlternateEmail } from
 'react-icons/md';
+import { SiUnity } from "react-icons/si"
 
 type FooterProps = {
 
@@ -27,8 +28,10 @@ const Footer: React.FC<FooterProps> = () => {
      <MdOutlineAlternateEmail size={32}  height="32"  width="32"fill="currentColor" color="#f0ffff"/>
      
       </a>
-      
-      
+      <a href='https://play.unity.com/discover/mygames'>
+       
+       <SiUnity  size={32}   height="32"  width="32" color="#f0ffff" fill="currentColor"/>
+       </a>
      </div>
    </div>
  
