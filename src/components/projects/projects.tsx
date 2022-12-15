@@ -29,7 +29,7 @@ const Projects: React.FC<ProjectsProps> = () => {
             <div key={x.id} className={styles.box}>
               <h4 className={styles.title}>{x.name}</h4>
               <p className={styles.text}>{x.description}</p>
-              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}>Look it in <br></br>GitHub</h4></a>
+              <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}><a>Look it on <br></br>GitHub</a></h4></a>
               
             </div>
           ))
